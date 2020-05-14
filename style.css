@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Jost', sans-serif;
+}
+
+.grow{
+  width:100%;
+  height:100vh;
+  background-image: url('img/jumbotron.png');
+  background-repeat: no-repeat;
+}
+
+.posizione-clearfix{
+  content: '';
+  display: table;
+  clear:both;
+}
+
+.back-up{
+  background-color: #f5f8fa;
+   width:100%;
+   height:70px;
+}
+
+.back-down{
+  background-color: #fff;
+   width:100%;
+   height:70px;
+   border-bottom: 1px solid black;
+
+}
