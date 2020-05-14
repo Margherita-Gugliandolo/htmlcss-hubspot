@@ -6,6 +6,7 @@
   color:#33475b;
 }
 
+
 .posizione-clearfix{
   content: '';
   display: table;
@@ -26,14 +27,54 @@
    height:90px;
    border-bottom: 1px solid #cbd6e2;
    position: fixed;
+   padding:0 10%;
 }
 
+/* menu di sinistra superiore */
+.menu-left{
+  float:left;
+  width:40%;
+  margin-top:2%;
+  margin-right: 40%;
+}
+li{
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* menu di destra superiore */
+
+.menu-right{
+  float:left;
+  width:20%;
+  margin: 2% 0;
+}
+
+/* menu inferiore/principale */
 .back-down{
   background-color: #fff;
    width:100%;
    height:180px;
 }
 
+/* logo */
+#logo{
+  width:10%;
+  float:left;
+  margin-top:120px;
+  margin-left:10%;
+}
+
+.menu-principale{
+  float:left;
+  width:50%;
+  margin-left: 70%;
+}
+
+/* blocco principale dell'header */
 .grow{
   width: 50%;
   height:90%;
