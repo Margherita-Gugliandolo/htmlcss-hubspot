@@ -3,42 +3,44 @@
   <head>
     <meta charset="utf-8">
     <title>Hubspot</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
+
   <body>
     <header>
       <!-- menu superiore fisso -->
-      <nav class="posizione-clearfix back-up">
+      <nav class="posizione-clearfix back-up centratura" >
         <!-- menu di sinistra contatti -->
-        <div class="menu-left">
+        <div class="menu-left col-1">
           <ul>
-            <li><a href="#">Icona</a></li>
+            <li><a href="#"><i class="fas fa-globe-europe"></i></a></li>
             <li><a href="#">English</a></li>
-            <li><a href="#">Icona</a></li>
+            <li id="slash"><a href="#"><i class="fas fa-chevron-down"></i></a></li>
+            <li><a href="#">Contact us</a></li>
           </ul>
         </div>
 
         <!-- menu di destra login -->
-        <div class="menu-right">
+        <div class="menu-right col-2">
           <ul>
-            <li><a href="#">Icona</a></li>
+            <li><a href="#"><i class="fas fa-search"></i></a></li>
             <li><a href="#">Log in</a></li>
             <li><a href="#">GetHubspotfree</a></li>
           </ul>
         </div>
-
       </nav>
 
+
       <!-- menu inferiore -->
-      <nav class="back-down posizione-clearfix">
-        <!-- logo -->
+      <nav class="back-down posizione-clearfix centratura">
+        <div class="col-1 immagine">
           <img src="img/logo.svg" alt="logo" id="logo">
-
+        </div>
         <!-- menu principale di destra  -->
-
-          <ul class="menu-principale">
+        <div class="col-2 mainmenu">
+          <ul>
             <li><a href="#">Icona</a></li>
             <li><a href="#">English</a></li>
             <li><a href="#">Icona</a></li>
@@ -49,6 +51,7 @@
             <li><a href="#">English</a></li>
             <li><a href="#">Icona</a></li>
           </ul>
+        </div>
       </nav>
 
       <!-- Blocco immagine di sfondo principale -->
@@ -64,43 +67,26 @@
     </header>
 
     <main>
-      <section class="riga1">
+      <section id="info" class="centratura">
         <!-- blocco immagine -->
-        <img src="img/cube.png" alt="cubo" id="cube">
+        <div id="subsez-power">
+            <img src="img/cube.png" alt="cubo" id="cube">
+         <div class="text">
+           <h2>Powerful Alone. Better Together.</h2>
 
-        <!-- blocco testo -->
-        <div class="text">
-          <h2>Powerful alone. Better together.</h2>
+           <p>
+             HubSpot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. They’re powerful alone — but even better when used together.
+           </p>
 
-          <p>
-            HubSpot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. They’re <br> powerful alone — but even better when used together.
-          </p>
-        </div>
-      </section>
-
-      <!-- blocco free HubSpot -->
-      <section class="riga2 posizione-clearfix">
-        <!-- blocco immagine più button -->
-        <div class="block-left">
-
-        </div>
-        <!-- blocco testo più varie ed eventuali -->
-        <div class="block-right">
-
-        </div>
-      </section>
-
-      <!-- blocco tre schede -->
-      <section class="riga3 posizione-clearfix">
-        <div class="card-left">
+         </div>
 
         </div>
 
-        <div class="card-center">
+        <div id="subsez-crm">
 
         </div>
 
-        <div class="card-right">
+        <div id="subsez-hub">
 
         </div>
       </section>
