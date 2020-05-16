@@ -9,100 +9,138 @@
   </head>
 
   <body>
-    <header>
-      <!-- menu superiore fisso -->
-      <nav class="posizione-clearfix back-up centratura" >
-        <!-- menu di sinistra contatti -->
-        <div class="menu-left col-1">
-          <ul>
-            <li><a href="#"><i class="fas fa-globe-europe"></i></a></li>
-            <li><a href="#">English</a></li>
-            <li id="slash"><a href="#"><i class="fas fa-chevron-down"></i></a></li>
-            <li><a href="#">Contact us</a></li>
-          </ul>
-        </div>
+    <!-- intestazione -->
+  <header class="centratura">
+    <!-- menu superiore -->
+    <div id="menu-fixed">
+      <div class="riga">
 
-        <!-- menu di destra login -->
-        <div class="menu-right col-2">
-          <ul>
-            <li><a href="#"><i class="fas fa-search"></i></a></li>
-            <li><a href="#">Log in</a></li>
-            <li><a href="#">GetHubspotfree</a></li>
-          </ul>
+        <!-- menu di sinistra -->
+        <div class="col-1">
+          <nav>
+            <ul>
+              <li><a href="#"><i class="fas fa-globe-europe"></i></a></li>
+              <li><a href="#">English</a></li>
+              <li><a href="#"><i class="fas fa-chevron-down"></i></a></li>
+              <li id="slash"> &nbsp </li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </nav>
         </div>
-      </nav>
-
-
-      <!-- menu inferiore -->
-      <nav class="back-down posizione-clearfix centratura">
-        <div class="col-1 immagine">
-          <img src="img/logo.svg" alt="logo" id="logo">
-        </div>
-        <!-- menu principale di destra  -->
-        <div class="col-2 mainmenu">
-          <ul>
-            <li><a href="#">Icona</a></li>
-            <li><a href="#">English</a></li>
-            <li><a href="#">Icona</a></li>
-            <li><a href="#">Icona</a></li>
-            <li><a href="#">English</a></li>
-            <li><a href="#">Icona</a></li>
-            <li><a href="#">Icona</a></li>
-            <li><a href="#">English</a></li>
-            <li><a href="#">Icona</a></li>
-          </ul>
-        </div>
-      </nav>
-
-      <!-- Blocco immagine di sfondo principale -->
-      <div class="head-img">
-        <div class="grow">
-          <h1>Testo prova</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-          <button type="button" name="button">GetHubspotfree</button>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+       <!-- menu di destra -->
+        <div class="col-2">
+          <nav class="navdx">
+            <ul>
+              <li><a href="#"><i class="fas fa-search"></i></a></li>
+              <li><a href="#" id="login">Log in</a></li>
+              <li><a href="#" class="bottone">GetHubspotfree</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
+    </div>
 
-    </header>
+   <!-- menu inferiore -->
+    <div id="mainmenu">
+      <div class="riga">
+        <!-- logo a sinistra -->
+        <div class="col-1">
+          <img src="img/logo.svg" alt="logo" id="logo">
+        </div>
 
-    <main>
-      <section id="info" class="centratura">
-        <!-- blocco immagine -->
-        <div id="subsez-power">
-            <img src="img/cube.png" alt="cubo" id="cube">
-         <div class="text">
-           <h2>Powerful Alone. Better Together.</h2>
+         <!-- menu di destra -->
+        <div class="col-2">
+          <nav class="navdx" id="about">
+            <ul>
+              <li><a href="#">Software</a></li>
+              <li><a href="#"><i class="fas fa-chevron-down"></i></a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#"><i class="fas fa-chevron-down"></i></a></li>
+              <li><a href="#">Partners</a></li>
+              <li><a href="#"><i class="fas fa-chevron-down"></i></a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#"><i class="fas fa-chevron-down"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
 
-           <p>
-             HubSpot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. They’re powerful alone — but even better when used together.
-           </p>
+    <div id="jumbo">
+      <h1>There's a better way to grow.</h1>
+      <p class="testo">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <a href="#" class="bottone">GetHubspotfree</a>
+      <span class="small">
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </span>
+    </div>
+  </header>
+ <!-- contenuto -->
+ <main>
+   <!-- sezione1 -->
+   <section id="sezione-info" class="centratura">
+     <div id="sez-power">
+
+     </div>
+     <div id="sez-crm" class="blockstyle">
+       <div class="riga">
+         <div class="col-1">
 
          </div>
+         <div class="col-2">
+
+         </div>
+      </div>
+     </div>
+
+     <div id="sez-hub">
+       <div class="riga">
+         <div class="col-1">
+           <!-- blocco di contenuto1 -->
+           <div class="blockstyle">
+
+           </div>
 
         </div>
+         <div class="col-1">
+           <!-- blocco di contenuto1 -->
+           <div class="blockstyle">
 
-        <div id="subsez-crm">
+           </div>
 
-        </div>
+         </div>
+         <div class="col-1">
+           <!-- blocco di contenuto1 -->
+           <div class="blockstyle">
 
-        <div id="subsez-hub">
+           </div>
 
-        </div>
-      </section>
-    </main>
+         </div>
+      </div>
+    </div>
 
-    <section>
+   </section>
+   <!-- sezione2 -->
+   <section>
 
-    </section>
+   </section>
+   <!-- sezione3 -->
+   <section>
 
-    <section>
+   </section>
 
-    </section>
+ </main>
 
-    <footer>
+ <!-- footer -->
+ <footer>
 
-    </footer>
+ </footer>
+
+
+
 
   </body>
 </html>

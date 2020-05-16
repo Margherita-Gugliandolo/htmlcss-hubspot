@@ -1,3 +1,4 @@
+/* regole generali */
 *{
   margin:0;
   padding:0;
@@ -7,10 +8,10 @@
 }
 
 .centratura{
-  padding: 0 10%;
+  padding:0 10%;
 }
 
-.posizione-clearfix{
+.riga::after{
   content: '';
   display: table;
   clear:both;
@@ -20,90 +21,161 @@
   float:left;
 }
 
-/* parametri generali menu */
 
-li{
+.blockstyle{
+  background-color: #fff;
+  border-radius: 10px;
+}
+/* Header */
+header li{
   display: inline-block;
+  margin-right: 10px;
 }
 
 a{
   text-decoration: none;
 }
 
-/* menu di sinistra superiore */
-.back-down, .back-up{
-   width:100%;
-}
-.back-up{
-  background-color: #f5f8fa;
-   border-bottom: 1px solid #cbd6e2;
-   position: fixed;
+.navdx{
+  float:right;
 }
 
-.menu-left{
-  margin-top:2%;
-  margin-right: 68%;
+/* menu superiore */
+#menu-fixed{
+  background-color: #f4f9fd;
+  position:fixed;
+  z-index: 999;
+  width:100%;
+  height:80px;
+  line-height: 60px;
+  top:0;
+  left:0;
+  padding:0 10%;
+  border-bottom: 1px solid;
+  border-color: rgba(124, 152, 182, 0.2);
 }
 
+#menu-fixed .col-1, #menu-fixed .col-2{
+  width:50%;
+  margin-top: 10px;
+}
 
+/* separatore */
 #slash{
-  width:30px;
-  border-right:
-    1px solid black;
+  border-left: 1px solid black;
+  line-height: 90%;
+}
+
+/* bottone login style */
+#login{
+  color:#ee7e5e;
+  border:1px solid #ee7e5e;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+#login:hover{
+  background-color: #fdf2ee;
+}
+
+/* stile pulsanti colorati */
+.bottone{
+  color:#fff;
+  /* border:1px solid #ee7e5e; */
+  background-color: #ee7e5e;
+  padding: 12px 18px;
+  border-radius: 3px;
   }
-
-
-/* menu di destra superiore */
-.menu-right{
-  margin: 2% 0;
+.bottone:hover{
+  background-color: #edb1a1;
 }
 
-/* menu inferiore */
-
-.immagine{
-  width: 60%;
-  margin-top:90px;
+.fa-search{
+ color: #4eabc2;
+}
+/* menu con logo inferiore */
+#mainmenu{
+  height:80px;
+  line-height: 80px;
+  margin-top: 100px;
 }
 
-#logo{
-  width:100px;
+#about, #logo{
+  line-height: 100%;
+  margin-top: 15px;
 }
 
-.mainmenu{
-  width: 40%;
-  height:50px;
-  margin-top: 90px;
-  padding-left: 4%;
+#mainmenu .col-1{
+  width:20%;
+}
+#mainmenu .col-2{
+  width:80%;
 }
 
+/* sezione jumbotron */
 
-
-/* blocco principale dell'header */
-.head-img{
-  width:100%;
-  height:695px;
+header{
   background-image: url('img/jumbotron.png');
-  background-repeat: no-repeat;
-  box-shadow: inset 0px 2px 5px #dedede;
-}
-
-.grow{
-  width: 60%;
-  height:90%;
-  padding: 10%;
-}
-
-main{
   width:100%;
-  height:1000px;
-  padding:5% 15%;
+  min-height: 750px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
-#cube{
-  width:200px;
-  margin-left: 40%;
+#jumbo{
+  display: block;
+  width:50%;
+  margin-top: 70px;
 }
 
-.text{
-  text-align: center;
+h1{
+  font-size: 54px;
+  line-height: 50px;
 }
+
+.testo{
+  margin:50px 0;
+}
+
+.small{
+  font-size: 14px;
+  display: block;
+  margin:50px 0;
+}
+
+
+/* contenuto */
+#sezione-info{
+  background-color: #f5f8fa;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#sez-crm .col-1{
+  width:20%;
+}
+
+#sez-crm .col-2{
+  width:80%;
+}
+
+#sez-hub .col-1{
+  width: calc(100% / 3);
+}
+
+/* regole di debug */
+
+#sezione-info div{
+  height:100px;
+  border:1px solid black;
+  margin-bottom:20px;
+}
+
+#sez-hub .blockstyle{
+  width: 80%;
+}
+
+/* [class*="col-"]{
+  border:1px solid #000;
+  height:70px;
+} */
