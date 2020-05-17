@@ -241,4 +241,28 @@ hr{
   margin:auto;
 }
 
+
 /* regole di debug */
+
+#sezione-grow{
+  background-image: linear-gradient(to right, #4fadb5 , #5cbfa6);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.learn-grow{
+  color:white;
+  text-align: center;
+}
+#griglia-dati{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border:1px solid black;
+}
+
+#griglia-dati .col-1{
+  width: calc(100% / 4);
+  border: 1px solid black;
+  padding:2% 5%;
+  height:200px;
+}
