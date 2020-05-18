@@ -241,8 +241,80 @@ hr{
   margin:auto;
 }
 
+.learn-grow{
+  color:white;
+  text-align: center;
+  font-size: 32px;
+  line-height: 40px;
+}
 
-/* regole di debug */
+#sez-intro p{
+  color:white;
+  font-size: 18px;
+  text-align: center;
+  margin-top:50px;
+}
+
+/* griglia verde contenuti */
+
+#griglia-dati li, #griglia-dati a, #griglia-dati i, #griglia-dati span{
+  color:white;
+  text-align: center;
+  list-style: none;
+  margin-top:5px;
+}
+
+#griglia-dati .statistica{
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 80px;
+}
+
+#griglia-dati .icona-griglia{
+  font-size: 30px;
+}
+#griglia-dati span{
+  font-size: 10px;
+}
+
+/* altezza riga con hubspot */
+.hubspot-line{
+  line-height: 10px;
+}
+
+.fa-hubspot{
+  margin-top: 15px;
+  font-size: 20px;
+  margin-left: -8px;
+}
+
+#growth{
+  font-size: 25px;
+}
+
+/* impostazioni divisori griglia */
+#griglia-1 .col-1{
+  border-right:1px solid white;
+  border-bottom: 1px solid white;
+}
+#griglia-2 .col-1{
+  border-right: 1px solid white;
+}
+
+#griglia-1 .col-2{
+  border-bottom: 1px solid white;
+  }
+
+
+footer{
+  background-color: #33475b;
+}
+
+
+
+
+
+/* regole di debug  griglia*/
 
 #sezione-grow{
   background-image: linear-gradient(to right, #4fadb5 , #5cbfa6);
@@ -257,12 +329,70 @@ hr{
 #griglia-dati{
   margin-top: 50px;
   margin-bottom: 40px;
+  /* border:1px solid black; */
+}
+
+#griglia-dati .col-1, #griglia-dati .col-2{
+  width: calc(100% / 4);
+  /* border: 1px solid black; */
+  padding:2% 5%;
+  height:200px;
+}
+
+/* regole di debug sezione today */
+#sezione-today{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#blocco-business .col-1{
+  width: 30%;
+  height:200px;
   border:1px solid black;
 }
 
-#griglia-dati .col-1{
-  width: calc(100% / 4);
-  border: 1px solid black;
-  padding:2% 5%;
+#blocco-business .col-2{
+  width: 70%;
   height:200px;
+  border:1px solid black;
+  }
+
+
+  #blocco-tool .col-1{
+    width: calc(100% / 2);
+    height: 400px;
+  }
+
+  /* regole debug footer */
+
+  #footer, #footer-fine{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+
+  #footer-info .col-1{
+    width: calc(100% / 4);
+    height:300px;
+    border: 1px solid white;
+  }
+
+#lingue{
+  width:100%;
+  height:100px;
+  border:1px solid white;
+}
+
+#lingue li{
+  display:inline-block;
+  padding-top:70px;
+}
+
+#lingue a{
+  color:white;
+}
+
+#copyright .col-1{
+  width: calc(100% / 2);
+  border:1px solid white;
 }
