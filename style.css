@@ -298,14 +298,12 @@ hr{
 }
 
 /* altezza riga con hubspot */
-.hubspot-line{
-  line-height: 10px;
+.hb-bianco-griglia{
+  width:70px;
 }
 
-.fa-hubspot{
-  margin-top: 15px;
-  font-size: 20px;
-  margin-left: -8px;
+.hubspot-line{
+  line-height: 10px;
 }
 
 #growth{
@@ -337,24 +335,28 @@ hr{
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
+/* parametri colonne loghi */
 #blocco-business .col-1{
   width: 40%;
+  margin-bottom:50px;
 }
 
 #blocco-business .col-2{
-  width: calc(50% / 4);
+  width: 60%;
 }
 
-.logo-style{
-  width:100px;
+#partner-loghi{
+  padding-left: 30px;
 }
 
-.lista-loghi{
-  width:50%;
-  padding:4% 10%;
+#partner-loghi > li {
+display: inline-block;
 }
 
+#partner-loghi img{
+  width: 100px;
+  margin-left: 30px;
+}
 
 
 #blocco-tool .col-1{
@@ -448,4 +450,9 @@ button{
 
 #copyright .hubspot-line{
   line-height: 20px;
+}
+
+#logo-bianco-copy{
+  width:100px;
+  margin-top: 20px;
 }
