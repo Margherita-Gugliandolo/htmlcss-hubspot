@@ -25,11 +25,12 @@
                2px -3px 5px #eaeaea,
               -3px  2px 5px #eaeaea;
 }
-/* Header */
-header li, #blocco-business li{
+/* liste inline */
+header li, #blocco-business li, #checklist li{
   display: inline-block;
   margin-right: 10px;
 }
+
 a{
   text-decoration: none;
 }
@@ -83,6 +84,8 @@ a{
 .bottone:hover{
   background-color: #edb1a1;
 }
+
+/* lente di ricerca */
 .fa-search{
  color: #4eabc2;
 }
@@ -97,6 +100,8 @@ a{
   line-height: 100%;
   margin-top: 15px;
 }
+
+/* divisione menu principale */
 #mainmenu .col-1{
   width:20%;
 }
@@ -113,18 +118,22 @@ header{
   background-repeat: no-repeat;
   background-position: bottom;
 }
+h1{
+  font-size: 54px;
+  line-height: 50px;
+}
+
 #jumbo{
   display: block;
   width:50%;
   margin-top: 70px;
 }
-h1{
-  font-size: 54px;
-  line-height: 50px;
-}
+
 .testo{
   margin:50px 0;
 }
+
+/* scritte piccole */
 .small{
   font-size: 14px;
   display: block;
@@ -168,6 +177,7 @@ h2{
   padding:4% 5%;
   margin-bottom: 40px;
 }
+
 .img-block{
   width:120px;
   margin-bottom: 30px;
@@ -178,10 +188,6 @@ h3{
   font-size: 24px;
   line-height: 70px;
 }
-#checklist li{
-  display: inline-block;
-  margin-right: 10px;
-}
 
 .fa-check{
   background-color: #ed7756;
@@ -190,20 +196,24 @@ h3{
   color: #fff;
   font-size: 10px;
 }
+
 h4{
   line-height: 70px;
 }
 
-/* sezione HUB */
+/* sezione HUB  divisione*/
 #sez-hub .col-1{
   width: calc(100% / 3);
 }
+
+/* hub stile blocchi */
 #sez-hub .blockstyle{
   width: 80%;
   text-align: center;
   padding:0 3%;
 }
 
+/* immagini blocchi hub */
 .img-hub{
   width:80px;
   margin-top: 20px;
@@ -237,10 +247,13 @@ hr{
   padding-top:20%;
   padding-bottom:10%;
 }
+
+/* centratura colonna HUB di mezzo */
 .centerhub{
   margin:auto;
 }
 
+/* Sezione 2 - Griglia dati */
 .learn-grow{
   color:white;
   text-align: center;
@@ -262,21 +275,33 @@ hr{
   padding-bottom: 30px;
 }
 
-.learn-grow{
-  color:white;
-  text-align: center;
-}
-#griglia-dati{
-  margin-top: 50px;
-  margin-bottom: 40px;
-}
-
 #griglia-dati .col-1, #griglia-dati .col-2{
   width: calc(100% / 4);
   padding:2% 5%;
   height:200px;
 }
 
+/* impostazioni principali griglia */
+#griglia-dati{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+/* impostazioni divisori griglia */
+#griglia-1 .col-1{
+  border-right:1px solid white;
+  border-bottom: 1px solid white;
+}
+#griglia-2 .col-1{
+  border-right: 1px solid white;
+}
+
+#griglia-1 .col-2{
+  border-bottom: 1px solid white;
+}
+
+
+/* contenuti griglia style */
 #griglia-dati li, #griglia-dati a, #griglia-dati i, #griglia-dati span, #copyright span{
   color:white;
   text-align: center;
@@ -293,11 +318,13 @@ hr{
 #griglia-dati .icona-griglia{
   font-size: 30px;
 }
+
+/* scritte piccole sotto il logo */
 #griglia-dati span, #copyright span{
   font-size: 10px;
 }
 
-/* altezza riga con hubspot */
+/* altezza riga con logo hubspot */
 .hb-bianco-griglia{
   width:70px;
 }
@@ -306,24 +333,13 @@ hr{
   line-height: 10px;
 }
 
+/* particolare scritta growth */
 #growth{
   font-size: 25px;
 }
 
-/* impostazioni divisori griglia */
-#griglia-1 .col-1{
-  border-right:1px solid white;
-  border-bottom: 1px solid white;
-}
-#griglia-2 .col-1{
-  border-right: 1px solid white;
-}
 
-#griglia-1 .col-2{
-  border-bottom: 1px solid white;
-  }
-
-  /* sezione today  */
+/* Sezione3 - today  */
 
 #blocco-business h2{
   text-align: center;
@@ -331,34 +347,35 @@ hr{
   margin-bottom: 15px;
 }
 
-#sezione-today{
+#sezione-today, #footer-fine{
   padding-top: 30px;
   padding-bottom: 30px;
 }
 /* parametri colonne loghi */
 #blocco-business .col-1{
-  width: 40%;
+  width: 30%;
   margin-bottom:50px;
 }
 
 #blocco-business .col-2{
-  width: 60%;
+  width: 70%;
 }
 
-#partner-loghi{
-  padding-left: 30px;
-}
-
+/* parametri loghi */
 #partner-loghi > li {
 display: inline-block;
 }
 
 #partner-loghi img{
-  width: 100px;
+  width: 120px;
   margin-left: 30px;
 }
 
+#partner-loghi{
+  padding-left: 10%;
+}
 
+/* impostazioni blocco TOOL TODAY */
 #blocco-tool .col-1{
   width: calc(100% / 2);
 }
@@ -384,19 +401,11 @@ footer{
   background-color: #33475b;
 }
 
-
-
-  /* regole debug footer */
-
- #footer-fine{
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-
-
+/* colonne di link */
   #footer-info .col-1{
     width: calc(100% / 4);
   }
+
 
 #lingue{
   width:100%;
@@ -412,11 +421,11 @@ footer{
   text-align: center;
 }
 
-#footer-info a, .titolo-link, i, #copyright .hubspot-line{
+#footer-info a, .titolo-link,#social i, #copyright .hubspot-line{
   color:#cbd6e2;
 }
 
-#footer-info a:hover{
+#footer-info a:hover,#social i:hover{
   color: #7cccd9;
 }
 
@@ -428,10 +437,6 @@ footer{
   display: inline-block;
   margin-right: 10px;
   margin-top: 10px;
-}
-
-#social i:hover{
-  color: #7cccd9
 }
 
 button{
